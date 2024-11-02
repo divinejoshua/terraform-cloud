@@ -8,7 +8,7 @@
 <hr><br>
 <h1>Apply changes</h1>
 <p>This command is used to apply the changes to your resources (AWS / Azure / GPC)</p>
-<pre>$ terraform plan</pre>
+<pre>$ terraform apply</pre>
 
 
 <h2>Example</h2>
@@ -20,4 +20,4 @@ resource "local_file" "hello_local_file" {
 }
 </pre>
 
-<p>This code will create a local resource on your server</p>
+<p>This code will create a local resource on your server. You can then apply the changes with the right command.</p>
